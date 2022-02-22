@@ -1,0 +1,965 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A goodly dyalogue betwene knowledge and symplicitie</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1548</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A20394</idno>
+            <idno type="STC">STC 6806</idno>
+            <idno type="STC">ESTC S105334</idno>
+            <idno type="EEBO-CITATION">99841063</idno>
+            <idno type="PROQUEST">99841063</idno>
+            <idno type="VID">5621</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A20394)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 5621)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 378:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A goodly dyalogue betwene knowledge and symplicitie</title>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Anthony Scoloker and Willyam Seres. Dwellyng wythout Aldersgate. Cum gratia et priuilegio ad imprimendum solum,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>[1548]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Publication date from STC.</note>
+                  <note>Signatures: [A].</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Theology, Doctrinal --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:5621:1"/>
+            <pb facs="tcp:5621:1"/>
+            <p>
+               <g ref="char:leaf">❧</g> A Goodly Dyalogue betwene Know<g ref="char:EOLhyphen"/>ledge and Symplicitie.</p>
+            <p>
+               <hi>IMPRINTED</hi> at London, by Anthony Scoloker And Willyam Seres. Dwel<g ref="char:EOLhyphen"/>lyng wythout Alderſ<g ref="char:EOLhyphen"/>gate.</p>
+            <p>Cum Bratia et priuilegio ad Imprimen<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>um ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lum<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:5621:2"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">G</seg>Od ſaue you my frende ſimplicitie</l>
+                  <l>I am glad of your good welfare</l>
+                  <l>Ye are ryght welcome vnto the Cytie<note place="margin">Sympli<g ref="char:EOLhyphen"/>citie is a ſtraunger in a cytie.</note>
+                  </l>
+                  <l>For here ye are a ſtraunger very rare</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> knowe the cauſe of your hyther repare</l>
+                  <l>It draweth nowe towarde the terme</l>
+                  <l>Ye haue ſome matters for to declare</l>
+                  <l>And what they be fayne wolde I learne.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicité</speaker>
+               <lg>
+                  <l>I thanke you knowledge of your good wyll</l>
+                  <l>And of your kyndnes without deſert,</l>
+                  <l>But I cam hether for no ſuche ſkyll,<note place="margin">Siplicité is ſory y<hi rend="sup">t</hi> euer he ca<g ref="char:cmbAbbrStroke">̄</g> in y<hi rend="sup">e</hi> 
+                        <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>é, it is ſo full of nough<g ref="char:EOLhyphen"/>tynes.</note>
+                  </l>
+                  <l>As y<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> haue vttered vppon your parte</l>
+                  <l>But thys I thought wyth all myne harte</l>
+                  <l>When I ſame hether vnto the terme</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> God I had ſuffred at home great ſmact<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Your facyons be ſo ſtraunge to learne.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>I praye you ſyr what is your grefe</l>
+                  <l>Hath any man here you offended?<note place="margin">Knoledge deſyreth to <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> owe his grefe &amp; promy<g ref="char:EOLhyphen"/>ſeth to hel<g ref="char:EOLunhyphen"/>pe hym.</note>
+                  </l>
+                  <l>Shewe it ſhortly in wordes brefe</l>
+                  <l>And if I cane I wyll ſee it amended</l>
+                  <l>Your cauſe by me ſhall be defended</l>
+                  <l>I wyll be with you all th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> terme</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> counſell towardes you ſhalbe bended</l>
+                  <l>Your ſymp<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>enes to teache and learne.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:2"/>
+            <sp>
+               <speaker>Siplicité</speaker>
+               <lg>
+                  <l>Mary Spr offended I am in dede</l>
+                  <l>And that in conſcience ryght greuouſly</l>
+                  <l>I praye God it ſhortlye be remedyed<note place="margin">Siplicité thynketh y<hi rend="sup">t</hi> Londo<g ref="char:cmbAbbrStroke">̄</g> will ſinke, for ſynne</note>
+                  </l>
+                  <l>That London ſinke not moch maruell I,</l>
+                  <l>For here is nought tis but hereſy</l>
+                  <l>Blaſphemy and ſlaunder all out of frame</l>
+                  <l>That one man affirmeth an other doth deny</l>
+                  <l>Againſt the honour of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge.</speaker>
+               <lg>
+                  <l>Ah Syr I knowe the cauſe well ynough then</l>
+                  <l>Of your great grefe in your conſcience</l>
+                  <l>And I am ryght glad, for aboue all men</l>
+                  <l>I haue much deſyred to haue your preſence</l>
+                  <l>Content you, and ſhortly ye ſhal haue intelligence</l>
+                  <l>Thogh as yet for a time, ſo<g ref="char:cmbAbbrStroke">̄</g>thing be out of frame</l>
+                  <l>At length amongeſt vs ſhall be no difference</l>
+                  <l>Concerning the honour of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Sympli<g ref="char:EOLhyphen"/>citie.</speaker>
+               <lg>
+                  <l>Frend Knowledge, that is a thyng impoſſible<note place="margin">The By<g ref="char:EOLhyphen"/>ble is cau<g ref="char:EOLhyphen"/>ſe of con<g ref="char:EOLhyphen"/>tr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uerſy. Ofer cuſ<g ref="char:EOLunhyphen"/>tome is blamed.</note>
+                  </l>
+                  <l>That euerin one we ſhulde agree</l>
+                  <l>So longe as we haue thys beble bible</l>
+                  <l>Nay Nay Knowledge, that will not bee</l>
+                  <l>Do ye not heare and dailys ſee</l>
+                  <l>Howe men olde cuſtome deſpyſe and blame?</l>
+                  <l>whych thinge is greatly as thinketh me</l>
+                  <l>Againſt the honor of Gods holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:3"/>
+            <sp>
+               <speaker>Kg</speaker>
+               <lg>
+                  <l>Though olde cuſtome hath vs longe <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Agaynſt Gods Goſpell manyf<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſtlye</l>
+                  <l>Is it not niece that it ſhulde be forbedde<note place="margin">
+                        <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> olde cu<g ref="char:EOLhyphen"/>ſtome be againſt y<hi rend="sup">e</hi> goſpell it muſt ge<g ref="char:EOLhyphen"/>ue place.</note>
+                  </l>
+                  <l>And alſo deſpyſed vtterly?</l>
+                  <l>Yf truth and olde cuſtome dyſagree</l>
+                  <l>Shall not trueth olde cuſtome deſpiſe and blame</l>
+                  <l>And make hym ſubiecte to Gods vertue</l>
+                  <l>Yes, that is the honour of Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>ſiplicitie.</speaker>
+               <lg>
+                  <l>Wyll ye (o knowledge) be of that minde?</l>
+                  <l>Wyll ye be of that ſort and gyſe?</l>
+                  <l>Wyll ye beginne newe wayes to fynde<note place="margin">The cuſ<g ref="char:EOLhyphen"/>tome of our forfa<g ref="char:EOLunhyphen"/>thers is to be ob<g ref="char:EOLhyphen"/>ſerued.</note>
+                  </l>
+                  <l>And olde cuſtome cleane to deſpyſe?</l>
+                  <l>Howe ſaye ye, were not our fathers wyſe?</l>
+                  <l>Where they not lerned? ye be to blame</l>
+                  <l>Let theyr example your mynde ſuſtyſe</l>
+                  <l>Concernyng the honour of Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>Vnto our fathers God be mercifull</l>
+                  <l>They lyued in darkenes and we in lyght<note place="margin">Our fa<g ref="char:EOLhyphen"/>thers as paul tea<g ref="char:EOLhyphen"/>cheth we<g ref="char:EOLhyphen"/>re vnd a cloude, &amp; ſawe not y<hi rend="sup">e</hi> truthe.</note>
+                  </l>
+                  <l>A litney were vnder a cloude mooſt wonderfull</l>
+                  <l>Of the trueth, they had no parfect ſyght</l>
+                  <l>But I ſaye, through Gods power and myght</l>
+                  <l>That cloude is cleared and ſet in ryght frame</l>
+                  <l>And all fained fantaſies it ſhall put to flyght</l>
+                  <l>To the honour and prayſe of Gods holy name</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:3"/>
+            <sp>
+               <speaker>ſiplicitie.</speaker>
+               <lg>
+                  <l>Wyll ye gyue me leaue to aſke you a queſtion</l>
+                  <l>And with my boldnes not to be angrye</l>
+                  <l>I wolde be ſory in any condicion,<note place="margin">The <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> of ſi<g ref="char:EOLhyphen"/>plicitie.</note>
+                  </l>
+                  <l>For to offende you, ye maye beleue me</l>
+                  <l>And I deſyre you euen hartelye</l>
+                  <l>Shewe vnto me your opinion agayne</l>
+                  <l>For we two I thynke ſhall not agre</l>
+                  <l>Concernyng the honour of gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>Aſke what ye wyll, and by Gods grace</l>
+                  <l>As well as my wyttes ſhall ſerue me</l>
+                  <l>I ſhall make anſwere in lytle ſpace<note place="margin">the ge<g ref="char:cmbAbbrStroke">̄</g>tell a<g ref="char:cmbAbbrStroke">̄</g>ſwer of Knoledg</note>
+                  </l>
+                  <l>As I haue lerned in gods veritie</l>
+                  <l>Be not afrayd, but ſpeake at lybertie</l>
+                  <l>What ſo euer ye ſaye, none ſhall ye blame</l>
+                  <l>For ſu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ely I truſt your minde to ſatyſfye</l>
+                  <l>Concernyng the honour of Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>ſiplicitie.</speaker>
+               <lg>
+                  <l>Howe ſaye you (I pray the) to the holy maſſe</l>
+                  <l>That long hath bene uſed of antiquitie</l>
+                  <l>An for many other thynges I let paſſe)<note place="margin">The firſt queſtion is of maſ<g ref="char:EOLunhyphen"/>ſes</note>
+                  </l>
+                  <l>As of maſſe of maſſe of requiem and ſcala rely</l>
+                  <l>That delyuered our fre<g ref="char:cmbAbbrStroke">̄</g>des ſoules fro<g ref="char:cmbAbbrStroke">̄</g> purgatory</l>
+                  <l>Wyth many mo maſſes then I can name</l>
+                  <l>Of the v. wound<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s, and of corpus Chriſti</l>
+                  <l>To the honour and praiſe of Gods holy name</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:4"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Such maſſes I ſay, are but Idolatrye<note place="margin">y<hi rend="sup">t</hi> all maſ<g ref="char:EOLhyphen"/>ſes ſatiſ<g ref="char:EOLhyphen"/>factory are Idola<g ref="char:EOLunhyphen"/>trye of y<hi rend="sup">e</hi> biſſhop of Romes mue<g ref="char:cmbAbbrStroke">̄</g>ting.</note>
+                  </l>
+                  <l>Which the Romyſh Antichryſt dyd inuent</l>
+                  <l>To blynd our eyes wyth fayned ypocryſy</l>
+                  <l>And all to get money was hys intent</l>
+                  <l>What greater blaſphemye was euerment?</l>
+                  <l>If maſſes ſhal ſaue vs, Chriſts death is invayn</l>
+                  <l>That ſuffred for vs hys fleſh to be torment</l>
+                  <l>Honour therfore no maſſe, but Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicitë</speaker>
+               <lg>
+                  <l>How ſay ye then vnto the Sacrament</l>
+                  <l>Which all ye go about to denye<note place="margin">Whether Chryſtes body be re<g ref="char:EOLunhyphen"/>ally preſe<g ref="char:cmbAbbrStroke">̄</g>t in the ſa<g ref="char:EOLhyphen"/>crament.</note>
+                  </l>
+                  <l>In the hooſt, to be bodely preſent</l>
+                  <l>Fyrſt as he was borne of mary</l>
+                  <l>And vppon the croſſe as he dyd dye</l>
+                  <l>If ye ſpeake agaynſt thys ye are to blame</l>
+                  <l>Thys out fathers beleued, and ſo do I</l>
+                  <l>To the honour and praſyſe of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>The ſacrament is an holy thyng</l>
+                  <l>But the vſe therof was farre out of frame</l>
+                  <l>And that ſelfe body on the croſſe hangyng<note place="margin">y<hi rend="sup">t</hi> Chryſte is not' o<g ref="char:EOLhyphen"/>dely <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ent in th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ſa<g ref="char:EOLhyphen"/>cran<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>t.</note>
+                  </l>
+                  <l>And horne of mary that bl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſſed dame</l>
+                  <l>In hys corporall preſens I ſay playne</l>
+                  <l>Is not there preſent, ſurely I thynke the ſame</l>
+                  <l>Who teacheth contrary, his doctyne is vayne</l>
+                  <l>And great dyſhonour to Gods holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:4"/>
+            <sp>
+               <speaker>ſiplicitie</speaker>
+               <lg>
+                  <l>Ah Ieſus mercy what do I here?<note place="margin">God is preſe<g ref="char:cmbAbbrStroke">̄</g>t <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>l<g ref="char:EOLhyphen"/>where &amp; therfore his body is in the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t</note>
+                  </l>
+                  <l>Is not he preſent in the ſacrament?</l>
+                  <l>How ſay you? Is not God preſent alwhere?</l>
+                  <l>Wyll ye deny the new Teſtament?</l>
+                  <l>And if he be alwhere, I ſay verament</l>
+                  <l>He is in the ſacrament I abyde by the ſame</l>
+                  <l>Your deuelyſh doctryne the deuell dyd inuent</l>
+                  <l>To the great diſhonour of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Yis ſyr God is preſent in very dede</l>
+                  <l>As well all where, as in the Sacrament</l>
+                  <l>But that vnderſtand in hys Godhead<note place="margin">y<hi rend="sup">t</hi> God is preſe<g ref="char:cmbAbbrStroke">̄</g>t all where a<g ref="char:cmbAbbrStroke">̄</g>d is not ſee<g ref="char:cmbAbbrStroke">̄</g>, as y<hi rend="sup">e</hi> ſoule of man is inuiſ<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ble &amp; icorrup<g ref="char:EOLunhyphen"/>tible</note>
+                  </l>
+                  <l>And for example terne thys preſydent</l>
+                  <l>The ſoule and the body be thynges different</l>
+                  <l>But the body deſtroyed, y<hi rend="sup">e</hi> ſoule doth yet remaine</l>
+                  <l>And ye ſe not the ſoule, nether yet in the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t</l>
+                  <l>Ye ſe Gods body, but blaſpheme hys name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicite</speaker>
+               <lg>
+                  <l>Mary ſyr that is abominable hereſy</l>
+                  <l>Is thys your new leranyng and doctryne?<note place="margin">That the preſt of<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> up Gods bo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y i the ſacrame<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </note>
+                  </l>
+                  <l>What thyng can be ſayd that is mort blaſphemy</l>
+                  <l>Ye ſhall neuer perſuade me brother myne</l>
+                  <l>Doth not the prieſt from tyme to tyme</l>
+                  <l>lift vp Gods body, and ſhew vs the ſame?</l>
+                  <l>In fourme of bread, yea, we ſe it wyth oure eyen</l>
+                  <l>To the honour and prayſe of Gods holye name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:5"/>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>Ye are deceaued <gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rr ſymplicitie<note place="margin">Chriſt of<g ref="char:EOLunhyphen"/>fred ones ca<g ref="char:cmbAbbrStroke">̄</g> not be offred a<g ref="char:EOLhyphen"/>gainſt, maſſe is ydolatrie &amp; hath no grou<g ref="char:cmbAbbrStroke">̄</g>d in ſcriptur.</note>
+                  </l>
+                  <l>For Chriſt being offred ones for all</l>
+                  <l>Shall neuer be offred agayne, beleue mé.</l>
+                  <l>Our maſſes therfore, are moſt Idolatry of all</l>
+                  <l>Hauyng no grounde in ſcrypture at all</l>
+                  <l>If ye ſay, ye ſe Chryſt lyft vp in the ſame</l>
+                  <l>You co<g ref="char:cmbAbbrStroke">̄</g>my<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> moſt ſhamefull ydolatry wythall</l>
+                  <l>To the great dyſhonour of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>ſiplicitie.</speaker>
+               <lg>
+                  <l>Our curates co<g ref="char:cmbAbbrStroke">̄</g>mand vs in payn of da<g ref="char:cmbAbbrStroke">̄</g>pnació</l>
+                  <l>To beleue that Chryſtes bleſſed bloude and body</l>
+                  <l>In the ſacrament is preſent, of the ſame facyon</l>
+                  <l>As he ſuffred dyed, and was borne of mary<note place="margin">Curates co<g ref="char:cmbAbbrStroke">̄</g>mau<g ref="char:cmbAbbrStroke">̄</g>de to beleue y<hi rend="sup">t</hi> Gods body is y<hi rend="sup">e</hi> 
+                        <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> y<hi rend="sup">e</hi> ſa<g ref="char:EOLunhyphen"/>crament.</note>
+                  </l>
+                  <l>And who ſoeuer doth ſay the contrary</l>
+                  <l>To the byſſhops, they do accuſe the ſame</l>
+                  <l>As one co<g ref="char:cmbAbbrStroke">̄</g>myttyng moſt ſhamefull hereſy</l>
+                  <l>To the great dyſhonour of Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>your caries Curats whome cu<g ref="char:cmbAbbrStroke">̄</g>ſtu<g ref="char:cmbAbbrStroke">̄</g>e hath blynded</l>
+                  <l>Do not wel<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>n that thyng knowe what they ſaye</l>
+                  <l>But loke in the Goſpell and y<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ſhall fynde it</l>
+                  <l>The <gap reason="illegible" resp="#UOM" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>fe ſame Ieſus bornt of a maye<note place="margin">Cur<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>t<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s are b<gap reason="illegible" resp="#UOM" extent="4 letters">
+                           <desc>••••</desc>
+                        </gap> Chriſt is on y<hi rend="sup">e</hi> righ<g ref="char:EOLunhyphen"/>te had of y<hi rend="sup">e</hi> father.</note>
+                  </l>
+                  <l>That was Crucified, dyed, and roſe the iii daye</l>
+                  <l>On hys fathers ryght hand now ſitteth playne</l>
+                  <l>Hys body is only there preſent I ſaye</l>
+                  <l>Who ſayth contrarye, doth blaſpheme hys name</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:5"/>
+            <sp>
+               <speaker>Siplicité</speaker>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rowe ſaye you to faſting dayes?</l>
+                  <l>Are they not mo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt ſhamefully abuſed?<note place="margin">A queſtio<g ref="char:cmbAbbrStroke">̄</g> of ceremo<g ref="char:EOLunhyphen"/>nies.</note>
+                  </l>
+                  <l>And what thinke you of our holy dayes</l>
+                  <l>Whych are not m<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>te to be refuſed</l>
+                  <l>Both palmes and aſſhes are cleane confuſed</l>
+                  <l>And offeryng of Candels organe wyth them</l>
+                  <l>Are not all theſe ſtyll to be vſed</l>
+                  <l>To the honour and prayſe of Gods holy name?</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg.</speaker>
+               <lg>
+                  <l>I ſaye no daye more one then other<note place="margin">y<hi rend="sup">e</hi> faſtig &amp; holidaus made by ma<g ref="char:cmbAbbrStroke">̄</g>, are of n<gap reason="illegible" resp="#UOM" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>ff<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>t &amp; all ſuch lyke cere<g ref="char:EOLhyphen"/>monies.</note>
+                  </l>
+                  <l>By Gods woorde is commaunded to faſt</l>
+                  <l>And kept well your Saboth daye my Brother</l>
+                  <l>All other holy dayes are in waſte.</l>
+                  <l>your palmes and aſſhes cleane out caſt</l>
+                  <l>yf ye offer to ſtocke and ſtone, ye are to blame</l>
+                  <l>They are all but fayned lyke the wyndes blaſt</l>
+                  <l>And againſt the honour of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicitë</speaker>
+               <lg>
+                  <l>Say ye, that fayned is the holy crucifix?</l>
+                  <l>And deſpyte ye the holy prieſts abſolution?<note place="margin"> A qu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſtio<g ref="char:cmbAbbrStroke">̄</g> of y <gap reason="illegible" resp="#UOM" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>d prufi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> ab<g ref="char:EOLunhyphen"/>ſolecie<g ref="char:cmbAbbrStroke">̄</g>, of the god in y<hi rend="sup">e</hi> 
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e, &amp; ſuch other</note>
+                  </l>
+                  <l>Is Gods body a fayned God in the pyr?</l>
+                  <l>Dyd not our beades ſ<gap reason="illegible" resp="#UOM" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>e vs to d<gap reason="illegible" resp="#UOM" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>tion?</l>
+                  <l>Do not the ſaintes make inſerceſſyen?</l>
+                  <l>Doth not our faſtings our fleſh tame?</l>
+                  <l>Our holy bread &amp; holy water gyue vs monſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ion</l>
+                  <l>To honoure and prayſe Gods holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:6"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Of the crucifix an Idoll ye made</l>
+                  <l>And your priſtes uſurped Gods abſolution</l>
+                  <l>The bread in the box is no God I ſayde<note place="margin">In a<g ref="char:cmbAbbrStroke">̄</g>swe<g ref="char:EOLhyphen"/>re to the ſame.</note>
+                  </l>
+                  <l>And that your beades are very ſuperſtition</l>
+                  <l>your ſayntes can make no interceſſyon</l>
+                  <l>your fayned faſtyng can not your fleſh tame</l>
+                  <l>your water and bread, by coniuration</l>
+                  <l>Are great dyſhonour to Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicitie</speaker>
+               <lg>
+                  <l>And was it not well wyth vs thynke ye</l>
+                  <l>Whan we vſed our pylgrymage for deuotion?<note place="margin">if pylgry<g ref="char:EOLhyphen"/>mage was not good &amp; y<hi rend="sup">e</hi> ſayntes wrought <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ntra<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>les.</note>
+                  </l>
+                  <l>To holy ſayntes that wrought wonderfully</l>
+                  <l>Great maruels paſſyng mans expectation</l>
+                  <l>And they helped vs in our perturbation</l>
+                  <l>Almoſt all thyng that we aſked we dyd obteynt</l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow ſay ye? Was not this a godly fation</l>
+                  <l>To the honour and prayſe of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>That fatron is deuelyſh and cleane contrary<note place="margin">y<hi rend="sup">t</hi> 
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ylgry: ma<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e was <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> a<g ref="char:EOLhyphen"/>gaiſt god <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>s com<g ref="char:EOLhyphen"/>mau<g ref="char:cmbAbbrStroke">̄</g>de<g ref="char:EOLhyphen"/>ment.</note>
+                  </l>
+                  <l>To Gods co<g ref="char:cmbAbbrStroke">̄</g>maundement, as ye ſhall ſee</l>
+                  <l>God ſayd and co<g ref="char:cmbAbbrStroke">̄</g>maunded vs very ſtrayghtly</l>
+                  <l>Thou ſhalt haue none other God but me</l>
+                  <l>If ye worſhyp ydols of ſtone or of tree</l>
+                  <l>ye or thynke they can helpe you ye are to bla<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <l>For then ye depryue God of hys glory</l>
+                  <l>To the great dyſhonour of hys holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:6"/>
+            <sp>
+               <speaker>Siplicity</speaker>
+               <lg>
+                  <l>Is faſting and prayer of no effect</l>
+                  <l>Dyd not Chryſt to vs make mencion</l>
+                  <l>In his goſpell by wordes dyrect<note place="margin">yf faſting a<g ref="char:cmbAbbrStroke">̄</g>d prayer are of no<g ref="char:cmbAbbrStroke">̄</g>e effect</note>
+                  </l>
+                  <l>That well, uide vſe them for good intencyon?</l>
+                  <l>Yet ſome men ſaye ye deſpiſe the ſame</l>
+                  <l>And amongeſt yourſelues ye haue great diſſentio<g ref="char:cmbAbbrStroke">̄</g>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o the great diſhonour of Gods holy name,</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Yes, faſting and prayer are much requiſite<note place="margin">faſtig and prayer are neceſſary, but no ſpe<g ref="char:EOLunhyphen"/>ciall tyme is therto appoited by ſcrip<g ref="char:EOLhyphen"/>tures.</note> 
+                  </l>
+                  <l>As Chryſt hym ſelfe dyd to vs exampleſye</l>
+                  <l>But I ſaye in ſcrypture it is not recyte</l>
+                  <l>To faſt or praye any tyme propre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ye</l>
+                  <l>But watch ye and pray ye continually</l>
+                  <l>Whan the fleſhe doth prycke, them make it tame</l>
+                  <l>Wyth faſting, but beware of ypocryſye</l>
+                  <l>For that is dyſhonour to Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>ſiplycitie.</speaker>
+               <lg>
+                  <l>I praye God amend all that is amys</l>
+                  <l>In the woride was neuer ſo much dyuyſyon</l>
+                  <l>One is of that ſorte, another is of thys<note place="margin">prayeth y<hi rend="sup">t</hi> all abuſes may be a<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>ded me<g ref="char:cmbAbbrStroke">̄</g> may agre in one.</note>
+                  </l>
+                  <l>And each one dyuers in hys opinyon</l>
+                  <l>ye learned men fyrſt muſt agre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in one</l>
+                  <l>that after your exa<g ref="char:cmbAbbrStroke">̄</g>ple, our ſelues we may frame</l>
+                  <l>Then ſhall we not ſwarue in any condicion</l>
+                  <l>But prayſe all together Gods holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:7"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>And I pray God wyth you in that thy<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>
+                  </l>
+                  <l>To ſet at one all our diuiſion</l>
+                  <l>As to hys glory ſhalbe perteynyng<note place="margin">Knoledge agreeth to ſipliciti<g ref="char:EOLunhyphen"/>es praier.</note>
+                  </l>
+                  <l>That all we may agree in one</l>
+                  <l>And no man ſtyck to one opinion</l>
+                  <l>But as Gods worde ſhall teach hym the ſam<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Then ſhall we not ſwarue in any condition</l>
+                  <l>But prayſe all together Gods holy name</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicitè</speaker>
+               <lg>
+                  <l>Syrin dede all theys are aboue my reaſon<note place="margin">deſyereth to be caught y<hi rend="sup">e</hi> ryght way to faſt, praye &amp; to rec<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>y<g ref="char:EOLunhyphen"/>ue y<hi rend="sup">e</hi> Lor<g ref="char:EOLunhyphen"/>des ſup<g ref="char:EOLhyphen"/>per.</note>
+                  </l>
+                  <l>And ye be a man well learned, men ſaye</l>
+                  <l>Wyll ye therfore take payne wyth me this ſeaſon</l>
+                  <l>My com<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>red conſcyence to quyte and ſtay?</l>
+                  <l>ye ſay we ſhulde faſt, ye ſay we ſhulde pray</l>
+                  <l>And y<hi rend="sup">e</hi> ſupper of the lord, ye prayſe much y<hi rend="sup">e</hi> ſam<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>To teach me to vſe the ſame after the ryght wa<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>To the honour and prayſe. &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>yea, that I wyll wyth all my harte</l>
+                  <l>That is the thyng that I euer pretende<g ref="char:punc">▪</g>
+                  </l>
+                  <l>If diligently ye wyll adu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e</l>
+                  <l>My diligence towardes you is bended<note place="margin">the good wyll of knoledge towards ſiplicitie.</note>
+                  </l>
+                  <l>your ſymp<gap reason="illegible" resp="#UOM" extent="4 letters">
+                        <desc>••••</desc>
+                     </gap>s hath not me offended</l>
+                  <l>Neyther my boldenes you, I thynke the ſame</l>
+                  <l>And I truſt your grefe ſhortly to ende it</l>
+                  <l>To the honour and prayſe of Gods holye name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:7"/>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>Firſt to your queſtion how ye ſhuld pray<note place="margin">How <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> ſhulde praye.</note>
+                  </l>
+                  <l>In the .vi. of Math. lerne Chryſtes doctrine</l>
+                  <l>Pray not for prayſe, as I po<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rites do I ſay</l>
+                  <l>But in thy chambre, ſe thy ſelfe thou declyne</l>
+                  <l>by thy chambre thy conſcyence thou muſt defyne</l>
+                  <l>And if that be clene, beleue well the ſame</l>
+                  <l>God wyll rewarde the<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>by his power diuine</l>
+                  <l>To the honour and prayſe of Gods holye name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoleg<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </speaker>
+               <lg>
+                  <l>But in much babblyng eſteme no felicicie<note place="margin">we are not hear<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> for our many pr<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>
+                        <g ref="char:EOLunhyphen"/>ers, but for the<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> be ſayde from t<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> harte.</note>
+                  </l>
+                  <l>Lyke as dyd the Pharyſees moſt blynde</l>
+                  <l>your Ladyes pſalter was mere ypocryſie</l>
+                  <l>By this place of ſcrypture, plainly we fynde</l>
+                  <l>your beades brought prayer cleue out of kynde</l>
+                  <l>Chriſte taught a prayer, let vs vſe the ſame</l>
+                  <l>Deuoutly to be ſayd w<hi rend="sup">t</hi> harte and mynde</l>
+                  <l>To the honour and prayſe of Gods holye name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>your mattens and euenſo<g ref="char:cmbAbbrStroke">̄</g>g in a ſtraunge tongue</l>
+                  <l>your patched maſſes full of papiſtry
+<note place="margin">mates a<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> ev<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>io<g ref="char:cmbAbbrStroke">̄</g>g <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> a ſtrau<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap> to<g ref="char:cmbAbbrStroke">̄</g>g &amp; <gap reason="illegible" resp="#UOM" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> ceremon<gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> 
+                        <gap reason="illegible" resp="#UOM" extent="1 span">
+                           <desc>〈…〉</desc>
+                        </gap> vayne.</note>
+                  </l>
+                  <l>your ſhamefull ſorte of cerimones dome</l>
+                  <l>As knillyng, kneling and other many</l>
+                  <l>Do they any thing you teach to edifie?</l>
+                  <l>And to pray and thynke not, is but in vayne</l>
+                  <l>The Godly prophet herein agreeth w<hi rend="sup">t</hi> me</l>
+                  <l>All theſe are dyſhonour to Gods holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:8"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>When thou faſteſt (ſayth Chryſt) be not ſorye</l>
+                  <l>As the ypocrytes whyche pretendyng grauitie.</l>
+                  <l>Dyd dyſfigure theyr faces ſuperſticiouſly<note place="margin">How we ſhuld faſt</note>
+                  </l>
+                  <l>That to mens ſyght they myght ſeme holy</l>
+                  <l>But when thou faſteſt, do it ſecretely</l>
+                  <l>Not for worldes glory, but thy fleſh to tame</l>
+                  <l>Than God ſhall rewarde the aboundauntlye</l>
+                  <l>To the honour and prayſe of hys holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledg</speaker>
+               <lg>
+                  <l>But thys is not ment by fryday nor lent<note place="margin">ſuperſty<g ref="char:EOLhyphen"/>cious faſ<g ref="char:EOLunhyphen"/>tynge is agaynſt gods ho<g ref="char:EOLhyphen"/>nour.</note>
+                  </l>
+                  <l>By the faſt of Bernard / or yet of our ladye</l>
+                  <l>Neyther yet of the clouted cloyſters aduent</l>
+                  <l>For ſcripture appointeth no tyme properly</l>
+                  <l>Neyther yet of meates maketh be dyuerſitie</l>
+                  <l>But byddeth thy faſte, thy fleſhe for to tame</l>
+                  <l>At all tymes when ſoeuer thy fleſh prycketh the</l>
+                  <l>Thus faſting, thou honoureſt Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>And now for the holy ſupper of the lorde<note place="margin">How we ſhuld re<g ref="char:EOLhyphen"/>ceyue the ſupper of y<hi rend="sup">e</hi> lorde.</note>
+                  </l>
+                  <l>Let pau<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> be your teacher in each degree</l>
+                  <l>Examen your conſcience / let your fayth, accorde</l>
+                  <l>Before ye preſume of ſo hygh a myſt tye</l>
+                  <l>For in thys point, fayth onely muſt be your eye</l>
+                  <l>Fayth muſt be your taſt, &amp; all your wittes frame</l>
+                  <l>It is in your fayth, that ye ſee Gods bodye</l>
+                  <l>To the honour and prayſe of hys holy name.</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:8"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Thynke not y<hi rend="sup">t</hi> ye do eate hym w<hi rend="sup">t</hi> your teath<note place="margin">we do not eate Chri<g ref="char:EOLunhyphen"/>ſtes body nor drike his bloud but in ſpi<g ref="char:EOLhyphen"/>ryte by fayth.</note>
+                  </l>
+                  <l>Thynke not that ye ſe hym w<hi rend="sup">t</hi> your bodely eye</l>
+                  <l>But eate hym and drynke hym in ſpyrite &amp; fayth</l>
+                  <l>For he, yet ipuyng <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oyd giue his body</l>
+                  <l>Vnto hys <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>iſcyples, and ſayd, eate ye</l>
+                  <l>Thys is my body: yet hys body playne</l>
+                  <l>Before their eyes was preſent corporally</l>
+                  <l>Theyr fayth dyd iufiyſe: their bodely brayne</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Let fayth therfore you gouuerne and lede</l>
+                  <l>And in your harte remembre hys paſſyon<note place="margin">That we ſhulde be<g ref="char:EOLhyphen"/>fore all things beleue in hys paſ<g ref="char:EOLhyphen"/>ſyon.</note>
+                  </l>
+                  <l>And that he dyed in very dede</l>
+                  <l>Leuyng to vs for a co<g ref="char:cmbAbbrStroke">̄</g>memoration</l>
+                  <l>Hys bleſſed body, of ſuch a ynd and facion</l>
+                  <l>That in ſpyrite &amp; fayth we ſhuld receyue y<hi rend="sup">e</hi> ſame</l>
+                  <l>Thus doyng / you take it to your ſaluation</l>
+                  <l>To the honour and prayſe of Gods holy name.</l>
+               </lg>
+            </sp>
+            <sp>
+               <speaker>Siplicité</speaker>
+               <lg>
+                  <l>I pray God thanke you w<hi rend="sup">t</hi> all myne harte<note place="margin">The tha<g ref="char:EOLhyphen"/>kes of ſiplyc<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>té for the good <gap reason="illegible" resp="#UOM" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>
+                        <g ref="char:cmbAbbrStroke">̄</g>s <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ll of knoledge.</note>
+                  </l>
+                  <l>In theſe thynges my conſyenceis appeaſed</l>
+                  <l>And in all other I truſt ſone afterwarde</l>
+                  <l>My harte by you ſhall be well <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>a<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d</l>
+                  <l>The blyndenes that in me was, ſeaſed</l>
+                  <l>Is almoſt clered and ſit in fr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>me</l>
+                  <l>And you I do thanke, whome it hath pleaſed</l>
+                  <l>To teach me to honour Gods holy name</l>
+               </lg>
+            </sp>
+            <pb facs="tcp:5621:9"/>
+            <sp>
+               <speaker>Knoledge</speaker>
+               <lg>
+                  <l>Gyue the laude to God, as mooſt worthy is</l>
+                  <l>And not vnto man, but vnto hys name</l>
+                  <l>And praye we for the Kynges hyghnes<note place="margin">not to ma<g ref="char:cmbAbbrStroke">̄</g> but to god be all glory</note>
+                  </l>
+                  <l>That Gods goſpell hath ſo in frame</l>
+                  <l>That all we maye ſee the truth from the vayne</l>
+                  <l>That all we all errours maye worthely blame</l>
+                  <l>That all we hys kyngdo<g ref="char:cmbAbbrStroke">̄</g> at the laſt may attayn<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>In blyſſe all toghther to prayſe hys holy name.</l>
+               </lg>
+            </sp>
+            <trailer>Finis.</trailer>
+            <pb facs="tcp:5621:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
